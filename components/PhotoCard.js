@@ -16,15 +16,25 @@ function PhotoCard(props) {
         <div>
         
         <h1>NASA Photo of the Day</h1>
-            <div>
+        
             <h2>{props.title}</h2>
 
             <img src={props.url} alt="NASA Photo of the Day" />
 
             <p>{props.explanation}</p>
-            <p>{props.date}</p>git brach
-            </div>
-        </div>  
+            <p>{props.date}</p>
+        
+        <h1>NASA Photo of the Day</h1>
+        
+        <div>
+        <h2>{props.title}</h2>
+
+        <img src={props.url} alt="NASA Photo of the Day" />
+
+        <p>{props.explanation}</p>
+        <p>{props.date}</p>
+        </div>
+    </div>  
     ); 
 }
 
